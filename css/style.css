@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bubblegum Sans";
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand {
+  border-color: antiquewhite;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.mask {
+  margin-top: 90px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.hero-text {
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}       
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+#carouselExampleControls {
+  max-width: 68%; 
+  margin: auto; 
+}
+
+.carousel-item img {
+  max-height: 600px; 
+  width: auto; 
+}
+
+.container-detail {
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 25px;
+}
+
+.card-body-detail {
+  align-items: center;
+  text-align: center;
+}
+
+.detail-content {
+  text-align: end;
+  justify-content: end;
+  align-items: end;
+}
+
+#detail-content {
+  margin: 0 auto; 
+  max-width: 1000px; 
+}
+
+#weather-info {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000; 
+  background-color: rgba(255, 255, 255, 0.6); 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fas {
+  justify-content: center;
+  align-items: center;
+}
+
